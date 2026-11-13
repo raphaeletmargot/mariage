@@ -1,0 +1,51 @@
+body[data-design="1"] { overflow-x: clip; }
+body[data-design="1"] .programme-main { display: block; min-height: auto; padding: 82px 0 0; }
+body[data-design="1"] .programme-wrap { width: min(calc(100% - 14%), 980px); margin: 0 auto; }
+body[data-design="1"] .programme-intro { margin: 0 0 48px; }
+body[data-design="1"] .programme-kicker { margin: 0 0 14px; color: var(--moss); font-size: 11px; font-weight: 700; }
+body[data-design="1"] .programme-intro h1 { margin: 0; color: var(--fig-plum); font-size: 66px; line-height: 1.05; }
+body[data-design="1"] .moments { position: relative; margin: 0; padding: 0; list-style: none; }
+body[data-design="1"] .moments::before { position: absolute; top: 22px; bottom: 22px; left: 25px; width: 1px; background: var(--peach-blossom); content: ''; }
+body[data-design="1"] .moment { position: relative; display: grid; grid-template-columns: 52px minmax(0, 1fr); align-items: start; gap: 25px; padding: 28px 0; border-bottom: 1px solid #6b7a5f44; }
+body[data-design="1"] .moment-number { z-index: 1; width: 52px; display: grid; place-items: center; color: var(--peach-blossom); background: var(--paper); font-size: 12px; font-weight: 700; }
+body[data-design="1"] .moment-content { min-width: 0; }
+body[data-design="1"] .moment-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 20px; }
+body[data-design="1"] .moment h2 { margin: 0; color: var(--fig-plum); font-size: 31px; line-height: 1.15; }
+body[data-design="1"] .moment-date { margin: 0; color: var(--moss); font-size: 12px; font-weight: 700; }
+body[data-design="1"] .moment-location { margin: 8px 0 0; color: var(--moss); font-size: 12px; font-weight: 700; }
+body[data-design="1"] .moment-description { max-width: 680px; margin: 12px 0 0; font-size: 14px; line-height: 1.65; }
+body[data-design="1"] .agenda { display: grid; gap: 0; margin: 18px 0 0; padding: 0; list-style: none; }
+body[data-design="1"] .agenda-item { display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 14px; padding: 12px 0; border-top: 1px solid #6b7a5f33; }
+body[data-design="1"] .agenda-item time { color: var(--fig-plum); font-size: 13px; font-weight: 700; }
+body[data-design="1"] .agenda-item h3 { margin: 0; color: var(--ink); font: 600 14px/1.5 'DM Sans', sans-serif; }
+body[data-design="1"] .agenda-place { margin: 3px 0 0; color: #514a4a; font-size: 12px; line-height: 1.5; }
+body[data-design="1"] .programme-note { margin: 20px 0 0; padding: 17px 20px; border-left: 3px solid var(--peach-blossom); background: #d9846b1c; font-size: 13px; line-height: 1.65; }
+body[data-design="1"] .programme-note p { margin: 0; }
+body[data-design="1"] .programme-note p + p { margin-top: 9px; }
+body[data-design="1"] .programme-note a { color: var(--fig-plum); font-weight: 700; text-underline-offset: 3px; }
+body[data-design="1"] .attire { width: 100%; margin: 76px 0 0; padding: 55px max(7%, calc((100% - 980px) / 2)); background: var(--fig-plum); color: white; }
+body[data-design="1"] .attire-inner { width: min(100%, 980px); margin: 0 auto; display: grid; grid-template-columns: minmax(180px, .75fr) minmax(0, 1.25fr); gap: 40px; align-items: start; }
+body[data-design="1"] .attire-kicker { margin: 5px 0 0; color: var(--peach-blossom); font-size: 11px; font-weight: 700; }
+body[data-design="1"] .attire h2 { margin: 0; color: white; font-size: 34px; line-height: 1.12; }
+body[data-design="1"] .attire-copy { margin: 14px 0 0; font-size: 14px; line-height: 1.75; }
+body[data-design="1"] .attire-copy strong { color: #f0ad98; }
+body[data-design="1"] .programme-footer { margin-top: 0; }
+@media (max-width: 760px) {
+  body[data-design="1"] .programme-main { padding: 58px 0 0; }
+  body[data-design="1"] .programme-intro { margin-bottom: 32px; }
+  body[data-design="1"] .programme-intro h1 { font-size: 48px; }
+  body[data-design="1"] .moment { grid-template-columns: 42px minmax(0, 1fr); gap: 18px; padding: 22px 0; }
+  body[data-design="1"] .moment-number { width: 42px; }
+  body[data-design="1"] .moments::before { left: 20px; }
+  body[data-design="1"] .moment h2 { font-size: 25px; }
+  body[data-design="1"] .agenda-item { grid-template-columns: 68px minmax(0, 1fr); gap: 10px; }
+  body[data-design="1"] .programme-note { padding: 15px; }
+  body[data-design="1"] .attire { margin-top: 54px; padding: 40px 7%; }
+  body[data-design="1"] .attire-inner { grid-template-columns: 1fr; gap: 15px; }
+  body[data-design="1"] .attire h2 { font-size: 30px; }
+}
+@media (max-width: 400px) {
+  body[data-design="1"] .programme-intro h1 { font-size: 42px; }
+  body[data-design="1"] .moment h2 { font-size: 22px; }
+  body[data-design="1"] .attire h2 { font-size: 27px; }
+}

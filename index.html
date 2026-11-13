@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bienvenue sur le site du mariage de Raphaël et Margot, le 16 mai 2027.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#6b7a5f">
+  <title>Bienvenue · Raphaël & Margot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="accueil.css">
+  <script src="invites.js" defer></script>
+  <script src="accueil.js" defer></script>
+</head>
+<body>
+  <main class="welcome">
+    <div class="welcome-content">
+      <header class="topline">
+        <span>Raphaël & Margot</span>
+        <span>16 . 05 . 2027</span>
+      </header>
+
+      <div class="invitation">
+        <p class="eyebrow">Mariage de</p>
+        <h1>Raphaël <span>&</span><br>Margot</h1>
+        <p class="intro">Pour découvrir votre invitation, dites-nous qui vous êtes.</p>
+
+        <form id="guest-form">
+          <div class="fields">
+            <label for="first-name">Prénom
+              <input id="first-name" name="firstName" autocomplete="given-name" placeholder="Votre prénom" required>
+            </label>
+            <label for="last-name">Nom
+              <input id="last-name" name="lastName" autocomplete="family-name" placeholder="Votre nom" required>
+            </label>
+          </div>
+          <button type="submit">Découvrir mon invitation <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+        </form>
+
+        <p class="help">Un petit souci avec votre nom ? <a href="mailto:raphaellasry1@hotmail.fr?subject=Acc%C3%A8s%20%C3%A0%20l%27invitation">Écrivez-nous</a></p>
+      </div>
+
+      <footer class="bottomline"><span>Château de Courtalain</span><span class="bottomline-contacts">Contacts : <a href="tel:+33646881521">Raphaël (06.46.88.15.21)</a> &amp; <a href="tel:+33669206171">Margot (06.69.20.61.71)</a></span></footer>
+    </div>
+
+    <aside class="photo" aria-label="Le château de Courtalain">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chateau-de-courtalain_vu-du-parc.jpg?width=1400" alt="Le château de Courtalain vu depuis son parc">
+      <div class="photo-caption"><strong>16 mai<br>2027</strong></div>
+      <a class="photo-credit" href="https://commons.wikimedia.org/wiki/File:Chateau-de-courtalain_vu-du-parc.jpg">Photo : Catskingloves / Wikimedia Commons · CC BY-SA 3.0</a>
+    </aside>
+  </main>
+  <noscript><p class="no-script">Pour accéder à votre invitation, veuillez activer JavaScript ou <a href="mailto:raphaellasry1@hotmail.fr">nous écrire</a>.</p></noscript>
+</body>
+</html>
