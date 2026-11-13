@@ -12,23 +12,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Barrio&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="landing.css">
   <link rel="stylesheet" href="programme-design-1.css">
+  <script src="site-variant.js" defer></script>
 </head>
 <body data-design="1">
   <header class="topbar">
     <a class="brand" href="invitation-1.html" aria-label="Retour à l’invitation">R <span>&amp;</span> M</a>
-    <span class="topbar-date">15.05.2027 — 17.05.2027</span>
+    <span class="topbar-date" data-variants="1" hidden>10.04.2027 · 13.05.2027 — 17.05.2027</span>
+    <span class="topbar-date" data-variants="2,3" hidden>15.05.2027 — 17.05.2027</span>
     <a class="topbar-link" href="invitation-1.html#rsvp">RSVP ↗</a>
   </header>
   <main class="programme-main">
     <div class="programme-wrap">
       <header class="programme-intro">
-        <p class="programme-kicker">15 — 17 MAI 2027 · CHÂTEAU DE COURTALAIN</p>
+        <p class="programme-kicker" data-variants="1" hidden>10 AVRIL + 13 — 17 MAI 2027 · CHÂTEAU DE COURTALAIN</p>
+        <p class="programme-kicker" data-variants="2,3" hidden>15 — 17 MAI 2027 · CHÂTEAU DE COURTALAIN</p>
         <h1 id="page-title">Le programme</h1>
       </header>
 
       <ol class="moments" aria-label="Les temps forts">
-        <li class="moment">
-          <span class="moment-number" aria-hidden="true">01</span>
+        <li class="moment" data-variants="1" hidden>
           <div class="moment-content">
             <div class="moment-heading"><h2>L’union civile</h2><p class="moment-date">Samedi 10/04/2027</p></div>
             <p class="moment-location">5e arrondissement, Paris</p>
@@ -40,19 +42,17 @@
             </ul>
           </div>
         </li>
-        <li class="moment">
-          <span class="moment-number" aria-hidden="true">02</span>
+        <li class="moment" data-variants="1" hidden>
           <div class="moment-content">
             <div class="moment-heading"><h2>La prise de quartiers</h2><p class="moment-date">Jeudi 13/05/2027</p></div>
             <p class="moment-location">Château de Courtalain, 28290 Vald'Yerre</p>
             <p class="moment-description">Les valises posées au domaine, on s’installe pour quelques jours ensemble.</p>
             <ul class="agenda">
-              <li class="agenda-item"><time datetime="2027-05-13T14:00">Dès 14h</time><div><h3>Arrivée et installation au château</h3></div></li>
+              <li class="agenda-item"><time>Jeudi soir</time><div><h3>Arrivée et installation au château</h3></div></li>
             </ul>
           </div>
         </li>
-        <li class="moment">
-          <span class="moment-number" aria-hidden="true">03</span>
+        <li class="moment" data-variants="1" hidden>
           <div class="moment-content">
             <div class="moment-heading"><h2>Les bénédictions religieuses</h2><p class="moment-date">Vendredi 14/05/2027</p></div>
             <p class="moment-location">Château de Courtalain, 28290 Vald'Yerre</p>
@@ -64,7 +64,6 @@
           </div>
         </li>
         <li class="moment">
-          <span class="moment-number" aria-hidden="true">04</span>
           <div class="moment-content">
             <div class="moment-heading"><h2>Le prélude</h2><p class="moment-date">Samedi 15/05/2027</p></div>
             <p class="moment-location">Château de Courtalain, 28290 Vald'Yerre</p>
@@ -81,7 +80,6 @@
           </div>
         </li>
         <li class="moment">
-          <span class="moment-number" aria-hidden="true">05</span>
           <div class="moment-content">
             <div class="moment-heading"><h2>Le mariage</h2><p class="moment-date">Dimanche 16/05/2027</p></div>
             <p class="moment-location">Château de Courtalain, 28290 Vald'Yerre</p>
@@ -96,7 +94,6 @@
           </div>
         </li>
         <li class="moment">
-          <span class="moment-number" aria-hidden="true">06</span>
           <div class="moment-content">
             <div class="moment-heading"><h2>L’épilogue</h2><p class="moment-date">Lundi 17/05/2027</p></div>
             <p class="moment-location">Château de Courtalain, 28290 Vald'Yerre</p>

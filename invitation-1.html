@@ -11,11 +11,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barrio&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="landing.css">
+  <script src="site-variant.js" defer></script>
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="index.html" aria-label="Retour à l’accueil des invités">R <span>&</span> M</a>
-    <span class="topbar-date">15.05.2027 — 17.05.2027</span>
+    <span class="topbar-date" data-variants="1" hidden>10.04.2027 · 13.05.2027 — 17.05.2027</span>
+    <span class="topbar-date" data-variants="2,3" hidden>15.05.2027 — 17.05.2027</span>
     <a class="topbar-link" href="#rsvp">RSVP <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -25,7 +27,8 @@
       <div class="hero-content">
         <p class="hero-kicker">MARIAGE DE</p>
         <h1 id="hero-title">Raphaël <span>&amp;</span> Margot</h1>
-        <p class="hero-date">15.05.2027 <span>—</span> 17.05.2027</p>
+        <p class="hero-date" data-variants="1" hidden>10.04.2027 · 13.05.2027 <span>—</span> 17.05.2027</p>
+        <p class="hero-date" data-variants="2,3" hidden>15.05.2027 <span>—</span> 17.05.2027</p>
       </div>
     </section>
 

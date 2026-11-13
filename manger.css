@@ -1,0 +1,35 @@
+body[data-page="manger"] .food-main { min-height: auto; display: block; padding: 0; }
+body[data-page="manger"] .food-wrap { width: min(100% - 14%, 1040px); margin: 0 auto; }
+body[data-page="manger"] .food-intro { padding: 68px 0 42px; }
+body[data-page="manger"] .food-kicker { margin: 0 0 13px; color: var(--moss); font-size: 11px; font-weight: 700; }
+body[data-page="manger"] .food-intro h1 { margin: 0 0 18px; color: var(--fig-plum); font-size: 58px; line-height: 1.05; }
+body[data-page="manger"] .food-intro-copy { max-width: 760px; margin: 0; font-size: 16px; line-height: 1.75; }
+body[data-page="manger"] .diet-reminder { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 24px; padding: 17px 20px; border-left: 3px solid var(--peach-blossom); background: #d9846b1c; }
+body[data-page="manger"] .diet-reminder p { margin: 0; font-size: 13px; line-height: 1.6; }
+body[data-page="manger"] .diet-reminder a { flex: 0 0 auto; color: var(--fig-plum); font-size: 11px; font-weight: 700; text-underline-offset: 3px; }
+body[data-page="manger"] .food-common { padding: 34px 0 38px; border-top: 1px solid #6b7a5f44; }
+body[data-page="manger"] .food-common h2, body[data-page="manger"] .food-saturday h2 { margin: 0 0 12px; color: var(--fig-plum); font-size: 34px; }
+body[data-page="manger"] .food-common p { max-width: 720px; margin: 0; font-size: 14px; line-height: 1.7; }
+body[data-page="manger"] .food-saturday { padding: 38px 0 46px; border-top: 1px solid #6b7a5f44; }
+body[data-page="manger"] .food-caveat { margin: 0 0 26px; padding: 16px 19px; background: var(--fig-plum); color: white; font-size: 13px; line-height: 1.7; }
+body[data-page="manger"] .meal-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 42px; }
+body[data-page="manger"] .meal-option { padding: 20px 0; border-top: 2px solid var(--peach-blossom); }
+body[data-page="manger"] .meal-option h3 { margin: 0 0 9px; color: var(--fig-plum); font-size: 25px; }
+body[data-page="manger"] .meal-option p { margin: 0; font-size: 13px; line-height: 1.7; }
+body[data-page="manger"] .food-thursday { padding: 30px 0 62px; border-top: 1px solid #6b7a5f44; }
+body[data-page="manger"] .food-thursday h2 { margin: 0 0 12px; color: var(--moss); font-size: 30px; }
+body[data-page="manger"] .food-thursday p { max-width: 720px; margin: 0; font-size: 14px; line-height: 1.7; }
+@media (max-width: 760px) {
+  body[data-page="manger"] .food-intro { padding: 52px 0 34px; }
+  body[data-page="manger"] .food-intro h1 { font-size: 44px; }
+  body[data-page="manger"] .food-intro-copy { font-size: 14px; }
+  body[data-page="manger"] .diet-reminder { align-items: flex-start; flex-direction: column; gap: 12px; }
+  body[data-page="manger"] .food-common, body[data-page="manger"] .food-saturday { padding: 32px 0 36px; }
+  body[data-page="manger"] .food-common h2, body[data-page="manger"] .food-saturday h2 { font-size: 29px; }
+  body[data-page="manger"] .meal-options { grid-template-columns: 1fr; gap: 0; }
+  body[data-page="manger"] .food-thursday { padding: 28px 0 48px; }
+}
+@media (max-width: 400px) {
+  body[data-page="manger"] .food-intro h1 { font-size: 39px; }
+  body[data-page="manger"] .food-thursday h2 { font-size: 26px; }
+}
