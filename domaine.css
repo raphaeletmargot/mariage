@@ -12,8 +12,9 @@ body[data-page="domaine"] .estate-map a { display: block; background: #e8e5df; }
 body[data-page="domaine"] .estate-map img { display: block; width: 100%; height: auto; }
 body[data-page="domaine"] .estate-map figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; font-size: 11px; line-height: 1.5; }
 body[data-page="domaine"] .estate-map figcaption a { display: inline; color: var(--fig-plum); background: transparent; font-weight: 700; text-underline-offset: 3px; }
-body[data-page="domaine"] .map-key { display: flex; flex-wrap: wrap; gap: 10px 24px; margin: 17px 0 0; padding: 0; list-style: none; }
-body[data-page="domaine"] .map-key li { display: inline-flex; align-items: center; gap: 9px; font-size: 12px; line-height: 1.5; }
+body[data-page="domaine"] .map-key { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 24px; margin: 22px 0 0; padding: 0; list-style: none; }
+body[data-page="domaine"] .map-key li { min-width: 0; display: flex; align-items: center; gap: 9px; font-size: 12px; line-height: 1.5; }
+body[data-page="domaine"] .map-index { color: var(--peach-blossom); font-size: 11px; font-weight: 700; }
 body[data-page="domaine"] .map-symbol { min-width: 30px; height: 30px; display: inline-grid; place-items: center; border: 1px solid var(--moss); border-radius: 50%; color: var(--fig-plum); font-size: 10px; font-weight: 700; }
 body[data-page="domaine"] .map-symbol-bed { font-size: 11px; }
 body[data-page="domaine"] .estate-access { padding: 48px 0 72px; border-top: 1px solid #6b7a5f44; }
@@ -39,5 +40,5 @@ body[data-page="domaine"] .route-link span { color: var(--peach-blossom); font-s
 }
 @media (max-width: 400px) {
   body[data-page="domaine"] .estate-intro h1 { font-size: 38px; }
-  body[data-page="domaine"] .map-key { gap: 12px; }
+  body[data-page="domaine"] .map-key { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 }

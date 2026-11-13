@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">Plan dessiné du domaine de Courtalain</title>
+  <desc id="map-desc">Vue schématique de dessus, dessinée à l'encre. Le château et l'entrée piétons sont au sud-ouest; chambres et Salle des Rois au sud; pelouses, cour et Orangerie au centre; gîtes, parkings et entrée voitures à l'est.</desc>
+  <defs>
+    <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <path d="M0 0V12" stroke="#262522" stroke-width="2" opacity=".55"/>
+    </pattern>
+    <g id="tree" fill="#fffdf8" stroke="#242321" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0-27Q8-29 12-23Q23-25 23-15Q31-9 24-1Q29 9 18 13Q16 25 6 22Q-2 31-10 22Q-23 23-22 12Q-32 5-24-4Q-29-15-17-19Q-10-30 0-27Z"/>
+      <path d="M-15-6Q-8-16 0-12T14-15M-16 8Q-4 0 2 7T17 3M-5-21Q0-8-5 0T-1 18" fill="none" stroke-width="1.7" opacity=".75"/>
+    </g>
+    <g id="house" fill="#fffdf8" stroke="#242321" stroke-width="4" stroke-linejoin="round">
+      <path d="M-52-30Q-49-33-45-31L45-32Q51-30 50-25L52 26Q50 31 44 29L-46 31Q-52 29-51 23Z"/>
+      <path d="M-38-22 35-23 37 21-37 23Z" fill="url(#hatch)" stroke-width="2.5"/>
+      <path d="M-8-22V22M10-23V21" fill="none" stroke-width="2"/>
+    </g>
+    <g id="badge">
+      <circle r="24" fill="#242321" stroke="#fffdf8" stroke-width="5"/>
+    </g>
+    <g id="parking-icon">
+      <circle r="23" fill="#dce4d2" stroke="#53654a" stroke-width="3"/>
+      <text y="8" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="24" font-weight="700" fill="#242321">P</text>
+    </g>
+    <g id="wc-icon">
+      <rect x="-28" y="-19" width="56" height="38" rx="19" fill="#f2d9d1" stroke="#9b5348" stroke-width="3"/>
+      <text y="7" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="18" font-weight="700" fill="#242321">WC</text>
+    </g>
+    <g id="bed-icon" fill="none" stroke="#5a3848" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-27" y="-18" width="54" height="36" rx="5" fill="#e6d9df"/>
+      <path d="M-17-10h10a7 7 0 0 1 7 7v4h-17zM-17 5h34M-21-13v26M21 5v8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="720" fill="#fffdf8"/>
+  <path d="M39 59Q124 30 217 49T400 44Q505 26 607 47T810 42Q927 28 1036 47T1161 59L1150 652Q1043 677 931 658T714 670Q595 684 489 658T267 670Q151 682 39 650Z" fill="#fbfaf5" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 0"/>
+
+  <g opacity=".96">
+    <use href="#tree" x="88" y="89"/><use href="#tree" x="158" y="78"/><use href="#tree" x="236" y="91"/><use href="#tree" x="322" y="75"/><use href="#tree" x="410" y="91"/><use href="#tree" x="505" y="76"/><use href="#tree" x="605" y="90"/><use href="#tree" x="710" y="75"/><use href="#tree" x="815" y="89"/><use href="#tree" x="919" y="77"/><use href="#tree" x="1027" y="91"/><use href="#tree" x="1110" y="79"/>
+    <use href="#tree" x="74" y="168"/><use href="#tree" x="1120" y="168"/><use href="#tree" x="66" y="260"/><use href="#tree" x="1133" y="271"/>
+    <use href="#tree" x="74" y="365"/><use href="#tree" x="1134" y="385"/><use href="#tree" x="71" y="471"/><use href="#tree" x="1120" y="502"/>
+    <use href="#tree" x="83" y="576"/><use href="#tree" x="148" y="644"/><use href="#tree" x="244" y="651"/><use href="#tree" x="350" y="640"/><use href="#tree" x="457" y="654"/><use href="#tree" x="570" y="640"/><use href="#tree" x="685" y="654"/><use href="#tree" x="801" y="641"/><use href="#tree" x="914" y="654"/><use href="#tree" x="1025" y="639"/><use href="#tree" x="1110" y="603"/>
+  </g>
+
+  <path d="M195 684Q205 627 251 585T356 528Q424 496 464 424T561 331Q634 281 722 304T874 329Q969 342 1108 380" fill="none" stroke="#242321" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M195 684Q205 627 251 585T356 528Q424 496 464 424T561 331Q634 281 722 304T874 329Q969 342 1108 380" fill="none" stroke="#fffdf8" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M467 424Q404 376 323 349T235 284M531 362Q515 305 539 237T564 163M568 337Q643 378 697 456T787 537M873 329Q924 286 1005 262T1092 223" fill="none" stroke="#242321" stroke-width="16" stroke-linecap="round"/>
+  <path d="M467 424Q404 376 323 349T235 284M531 362Q515 305 539 237T564 163M568 337Q643 378 697 456T787 537M873 329Q924 286 1005 262T1092 223" fill="none" stroke="#fffdf8" stroke-width="10" stroke-linecap="round"/>
+
+  <path d="M198 443Q235 388 291 381T381 411Q397 449 363 477T269 490Q215 480 198 443Z" fill="#e6eadf" stroke="#242321" stroke-width="3" stroke-dasharray="10 7"/>
+  <path d="M777 221Q811 186 865 199T936 237Q947 276 916 296T839 291Q785 275 777 221Z" fill="#e7f0ed" stroke="#242321" stroke-width="3"/>
+  <path d="M793 230Q833 202 871 216T921 245M799 253Q843 224 885 237T924 264M811 274Q847 252 891 265" fill="none" stroke="#687c75" stroke-width="2"/>
+
+  <use href="#house" transform="translate(566 268) rotate(-2) scale(1.05)"/>
+  <path d="M480 331Q526 318 600 325L628 359Q616 390 566 395L493 385Z" fill="#f0ece3" stroke="#242321" stroke-width="4"/>
+  <path d="M494 340 603 337M493 352 615 349M498 365 613 362M507 378 603 375" stroke="#242321" stroke-width="2"/>
+  <use href="#house" transform="translate(251 570) rotate(-4) scale(1.25)"/>
+  <use href="#house" transform="translate(420 584) rotate(2) scale(.8)"/>
+  <use href="#house" transform="translate(354 611) rotate(-1) scale(.66)"/>
+  <use href="#house" transform="translate(556 120) rotate(1) scale(.78)"/>
+  <use href="#house" transform="translate(1004 414) rotate(-3) scale(.82)"/>
+
+  <g fill="none" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M179 678l20 7-11 20M1084 363l21 17-22 10"/>
+    <path d="M176 700Q192 691 203 685M1095 370Q1103 376 1110 381" stroke-width="2" stroke-dasharray="5 5"/>
+  </g>
+
+  <g font-family="DM Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+    <g transform="translate(608 265)"><use href="#badge"/><text y="6" fill="#fffdf8">01</text></g>
+    <g transform="translate(757 453)"><use href="#badge"/><text y="6" fill="#fffdf8">02</text></g>
+    <g transform="translate(475 591)"><use href="#badge"/><text y="6" fill="#fffdf8">03</text></g>
+    <g transform="translate(236 400)"><use href="#badge"/><text y="6" fill="#fffdf8">04</text></g>
+    <g transform="translate(690 286)"><use href="#badge"/><text y="6" fill="#fffdf8">05</text></g>
+    <g transform="translate(489 417)"><use href="#badge"/><text y="6" fill="#fffdf8">06</text></g>
+    <g transform="translate(189 535)"><use href="#badge"/><text y="6" fill="#fffdf8">07</text></g>
+    <g transform="translate(619 117)"><use href="#badge"/><text y="6" fill="#fffdf8">08</text></g>
+    <g transform="translate(340 585)"><use href="#badge"/><text y="6" fill="#fffdf8">09</text></g>
+    <g transform="translate(1110 408)"><use href="#badge"/><text y="6" fill="#fffdf8">10</text></g>
+    <g transform="translate(188 679)"><use href="#badge"/><text y="6" fill="#fffdf8">11</text></g>
+  </g>
+
+  <use href="#parking-icon" transform="translate(775 490)"/>
+  <use href="#parking-icon" transform="translate(818 511) scale(.82)"/>
+  <use href="#wc-icon" transform="translate(660 307) scale(.78)"/>
+  <use href="#wc-icon" transform="translate(488 559) scale(.78)"/>
+  <use href="#bed-icon" transform="translate(649 159) scale(.82)"/>
+  <use href="#bed-icon" transform="translate(1031 365) scale(.82)"/>
+  <use href="#bed-icon" transform="translate(372 623) scale(.76)"/>
+
+  <g transform="translate(1070 111)" font-family="DM Sans, sans-serif" font-weight="700" fill="#242321">
+    <path d="M0 37V-17M0-17-11 3M0-17 11 3" fill="none" stroke="#242321" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="-28" text-anchor="middle" font-size="17">N</text>
+  </g>
+  <g fill="#242321" opacity=".85">
+    <path d="M31 49q11-15 24 0v19H31z"/><path d="M53 49q11-15 24 0v19H53z"/>
+  </g>
+</svg>
