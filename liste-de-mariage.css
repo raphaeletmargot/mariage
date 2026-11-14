@@ -14,7 +14,7 @@ body[data-page="honeymoon"] .contribution h2 { margin: 0; color: white; font-siz
 body[data-page="honeymoon"] .contribution-copy { margin: 0; font-size: 14px; line-height: 1.75; }
 body[data-page="honeymoon"] .contribution-copy p { margin: 0; }
 body[data-page="honeymoon"] .contribution-copy p + p { margin-top: 14px; }
-body[data-page="honeymoon"] .pot-pending { display: inline-block; margin-top: 13px; padding: 9px 11px; background: #ffffff1c; color: #f0ad98; font-size: 11px; font-weight: 700; }
+body[data-page="honeymoon"] .pot-pending { padding: 1px 6px; background: #ffffff1c; color: #f0ad98; font-size: 11px; font-weight: 700; white-space: nowrap; }
 body[data-page="honeymoon"] .honeymoon-footer { margin-top: 0; }
 @media (max-width: 760px) {
   body[data-page="honeymoon"] .honeymoon-intro { padding: 52px 0 38px; }

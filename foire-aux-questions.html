@@ -11,25 +11,100 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barrio&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="faq.css">
   <script src="site-variant.js" defer></script>
 </head>
-<body>
+<body data-page="faq">
   <header class="topbar">
     <a class="brand" href="invitation-1.html" aria-label="Retour à l’invitation">R <span>&amp;</span> M</a>
-    <span class="topbar-date" data-variants="1" hidden>10.04.2027 · 13.05.2027 — 17.05.2027</span>
-    <span class="topbar-date" data-variants="2,3" hidden>15.05.2027 — 17.05.2027</span>
+    <span class="topbar-date">15.05.2027 - 17.05.2027</span>
     <a class="topbar-link" href="invitation-1.html#rsvp">RSVP ↗</a>
   </header>
-  <main class="subpage-main">
-    <section class="subpage-content" aria-labelledby="page-title">
-      <p class="subpage-kicker">MARIAGE DE RAPHAËL &amp; MARGOT · 15—17 MAI 2027</p>
-      <h1 id="page-title">Foire aux questions</h1>
-      <p class="subpage-message">Les réponses aux questions fréquentes seront ajoutées ici.</p>
-      <a class="back-link" href="invitation-1.html">← Retour à l’invitation</a>
-    </section>
+  <main class="faq-main">
+    <div class="faq-wrap">
+      <header class="faq-intro">
+        <p class="faq-kicker">MARIAGE DE RAPHAËL &amp; MARGOT · 15—17 MAI 2027</p>
+        <h1 id="page-title">Foire aux questions</h1>
+      </header>
+
+      <section class="faq-group" aria-labelledby="faq-programme">
+        <h2 id="faq-programme">Programme</h2>
+        <div class="faq-items">
+          <h3>À quelle heure faut-il arriver le jour J ?</h3>
+          <p>La cérémonie commence à 16h30 mais on vous propose un accueil citronnade dès 15h30 sur les pelouses du domaine. Pour le programme complet, voir la <a href="programme.html">page Programme</a>.</p>
+          <h3>Le mariage est un dimanche, peut-on venir dès le samedi ?</h3>
+          <p>Oui, vous êtes les bienvenu·es dès le samedi après-midi pour des retrouvailles, jeux et tisanes. Voir la <a href="programme.html">page Programme</a> pour le détail. Petite précision : nous ne pouvons pas assurer les repas du samedi soir, du dimanche matin et du dimanche midi. Voir la <a href="manger.html">page Manger</a> pour tous nos bons plans.</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-lieu">
+        <h2 id="faq-lieu">Lieu</h2>
+        <div class="faq-items">
+          <h3>Où se déroule la cérémonie ?</h3>
+          <p>Dans le domaine, face au château s’il fait beau ! Pour le détail, voir la <a href="programme.html">page Programme</a>.</p>
+          <h3>Où se trouve le domaine ?</h3>
+          <p>Vous trouverez toutes les infos sur le domaine dans la <a href="domaine.html">page Domaine</a> et des informations sur les différents moyens de transport pour y accéder dans la <a href="voyager.html">page Voyager</a>.</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-invites">
+        <h2 id="faq-invites">Invité·es</h2>
+        <div class="faq-items">
+          <h3>Quand et comment répondre à l’invitation ?</h3>
+          <p>Sur la <a href="invitation-1.html#rsvp">page d’accueil</a>, vous avez accès à un formulaire RSVP. Merci de le remplir avant le 15 janvier 2027.</p>
+          <h3>Les enfants sont-ils les bienvenus ?</h3>
+          <p>Oui ! On serait même ravis que tous nos petits cousins et toutes nos petites cousines soient là. Une salle un peu à l’écart de la fête sera prévue pour que les enfants puissent dormir. Les parents pourront se relayer, et si besoin, on peut aussi prévoir une baby-sitter.</p>
+          <h3>Puis-je venir accompagné·e ?</h3>
+          <p>Nous aurions aimé pouvoir inviter encore plus de monde, mais nous avons dû faire des choix (difficiles) pour la liste des invité·es et nous n’avons malheureusement pas pu convier l’ensemble des conjoint·es.</p>
+          <p>Pour savoir si votre partenaire fait partie des invité·es, le plus simple est de consulter les membres du groupe WhatsApp. S’il ou elle n’y figure pas, c’est soit que nous n’avons pas pu l’inviter, soit qu’il nous manque simplement son numéro (c’est le cas pour quelques membres de nos familles). En cas de doute, n’hésitez pas à nous écrire directement !</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-logement">
+        <h2 id="faq-logement">Logement</h2>
+        <div class="faq-items">
+          <h3>Où puis-je dormir ?</h3>
+          <p>Vous trouverez toutes les informations sur les hébergements sur la <a href="loger.html">page Loger</a>.</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-tenue">
+        <h2 id="faq-tenue">Tenue</h2>
+        <div class="faq-items">
+          <h3>Y a-t-il un dress code ?</h3>
+          <p>Pas de dress code : venez dans la tenue dans laquelle vous vous sentez rayonnant·e. Seule exception, le blanc est réservé à la mariée. Chapeaux, bibis et touches de fantaisie sont les bienvenus !</p>
+          <h3>Quel type de chaussures prévoir ?</h3>
+          <p>La cérémonie pourrait avoir lieu dans l’herbe et les chemins du domaine sont en gravier : les talons aiguilles sont donc réservés aux plus aguerri·es. Et pour enchaîner les danses jusqu’au bout de la nuit, n’hésitez pas à prévoir une paire de rechange plus confortable !</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-repas">
+        <h2 id="faq-repas">Repas</h2>
+        <div class="faq-items">
+          <h3>J’ai un régime alimentaire particulier, comment faire ?</h3>
+          <p>À indiquer dans le <a href="invitation-1.html#rsvp">RSVP</a>.</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-cadeaux">
+        <h2 id="faq-cadeaux">Cadeaux</h2>
+        <div class="faq-items">
+          <h3>Avez-vous une liste de mariage ?</h3>
+          <p>Voir la <a href="liste-de-mariage.html">page Liste de Mariage</a>.</p>
+        </div>
+      </section>
+
+      <section class="faq-group" aria-labelledby="faq-contact">
+        <h2 id="faq-contact">Contact</h2>
+        <div class="faq-items">
+          <h3>À qui s’adresser en cas de question ?</h3>
+          <p>Écrivez-nous ! <a href="tel:+33646881521">Raphaël (06.46.88.15.21)</a> &amp; <a href="tel:+33669206171">Margot (06.69.20.61.71)</a>.</p>
+        </div>
+      </section>
+    </div>
   </main>
   <footer class="footer">
-    <p>Contacts : <a href="tel:+33646881521">Raphaël (06.46.88.15.21)</a> &amp; <a href="tel:+33669206171">Margot (06.69.20.61.71)</a></p>
+    <p>Contacts : <a href="tel:+33646881521">Raphaël Lasry (06.46.88.15.21)</a> &amp; <a href="tel:+33669206171">Margot Cosson (06.69.20.61.71)</a> - 31 rue de Poissy, 75005 PARIS</p>
   </footer>
 </body>
 </html>

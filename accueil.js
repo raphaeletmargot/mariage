@@ -21,7 +21,7 @@ guestForm.addEventListener('submit', (event) => {
     return;
   }
 
-  formStatus.textContent = 'Nous ne retrouvons pas ce nom. Vérifiez son orthographe et réessayez, ou écrivez-nous si le problème persiste.';
+  formStatus.textContent = 'Nous ne retrouvons pas ce nom. Vérifiez son orthographe et réessayez, ou appelez-nous si le problème persiste.';
   formStatus.hidden = false;
 });
 

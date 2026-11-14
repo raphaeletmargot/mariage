@@ -22,6 +22,7 @@ body[data-page="domaine"] .estate-access h2 { margin-bottom: 28px; }
 body[data-page="domaine"] .access-routes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 42px; }
 body[data-page="domaine"] .access-route { padding: 24px 0; border-top: 2px solid var(--peach-blossom); }
 body[data-page="domaine"] .access-route h3 { margin: 0 0 12px; color: var(--fig-plum); font-size: 25px; }
+body[data-page="domaine"] .access-route p.access-hint { margin: 0 0 8px; color: var(--ink); font-size: 14px; }
 body[data-page="domaine"] .access-route address { margin: 0 0 10px; font-size: 14px; font-style: normal; font-weight: 600; line-height: 1.6; }
 body[data-page="domaine"] .access-route p { margin: 0 0 16px; color: #514a4a; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
 body[data-page="domaine"] .route-link { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 15px; background: var(--fig-plum); color: white; font-size: 11px; font-weight: 700; text-decoration: none; }
