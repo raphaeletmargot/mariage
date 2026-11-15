@@ -1,7 +1,7 @@
 (() => {
+  const versions = ['famille_proche', 'loges_domaine', 'invites_complets'];
   const requestedVersion = new URLSearchParams(window.location.search).get('version');
-  const invitationMatch = window.location.pathname.match(/invitation-([123])\.html$/);
-  const version = ['1', '2', '3'].includes(requestedVersion) ? requestedVersion : invitationMatch?.[1] || '1';
+  const version = versions.includes(requestedVersion) ? requestedVersion : versions[0];
 
   document.body.dataset.variant = version;
 
@@ -14,10 +14,7 @@
     const target = new URL(link.getAttribute('href'), window.location.href);
     if (target.origin !== window.location.origin) return;
 
-    if (/\/invitation-[123]\.html$/.test(target.pathname)) {
-      target.pathname = target.pathname.replace(/invitation-[123]\.html$/, 'invitation-1.html');
-      target.searchParams.set('version', version);
-    } else if (/\.html$/.test(target.pathname) && !/\/index\.html$/.test(target.pathname)) {
+    if (/\.html$/.test(target.pathname) && !/\/index\.html$/.test(target.pathname)) {
       target.searchParams.set('version', version);
     }
 

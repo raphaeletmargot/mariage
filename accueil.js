@@ -16,8 +16,8 @@ guestForm.addEventListener('submit', (event) => {
   );
 
   if (firstName && lastName && matches.length === 1 && [0, 1, 2].includes(matches[0].site)) {
-    const version = 3 - matches[0].site;
-    window.location.href = `invitation-1.html?version=${version}`;
+    const version = ['invites_complets', 'loges_domaine', 'famille_proche'][matches[0].site];
+    window.location.href = `invitation.html?version=${version}`;
     return;
   }
 
