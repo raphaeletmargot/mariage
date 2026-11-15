@@ -27,7 +27,6 @@ body[data-page="domaine"] .access-route address { margin: 0 0 10px; font-size: 1
 body[data-page="domaine"] .access-route p { margin: 0 0 16px; color: #514a4a; font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
 body[data-page="domaine"] .route-link { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 15px; background: var(--fig-plum); color: white; font-size: 11px; font-weight: 700; text-decoration: none; }
 body[data-page="domaine"] .route-link:hover { background: var(--moss); }
-body[data-page="domaine"] .route-link span { color: var(--peach-blossom); font-size: 17px; }
 @media (max-width: 760px) {
   body[data-page="domaine"] .estate-wrap { width: min(100% - 14%, 1120px); }
   body[data-page="domaine"] .estate-intro { padding: 52px 0 32px; }
