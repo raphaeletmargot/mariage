@@ -29,7 +29,6 @@ input { display: block; width: 100%; min-width: 0; height: 50px; margin-top: 8px
 input::placeholder { color: black; opacity: 1; font-size: 13px; }
 button { display: flex; justify-content: space-between; align-items: center; width: 100%; min-height: 53px; margin-top: 16px; padding: 0 18px; border: 0; border-radius: 2px; color: white; background: var(--green); font-size: 13px; font-weight: 700; cursor: pointer; transition: background .2s; }
 button:hover { background: var(--orange); color: black; }
-button span { font-size: 20px; }
 .form-status { margin: 13px 0 0; padding: 12px 14px; border-left: 3px solid var(--coral); background: white; font-size: 13px; line-height: 1.5; }
 .help { margin: 18px 0 0; color: black; font-size: 12px; line-height: 1.5; }
 .help a { color: black; font-weight: 700; text-underline-offset: 3px; }
