@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 96" role="img" aria-label="L’orangerie du château de Courtalain">
+  <g fill="none" stroke="#5a3848" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sol et façade -->
+    <path d="M4 88H196"/>
+    <path d="M12 88V36H188V88"/>
+    <path d="M9 36H191M9 31H191V36M9 31V36"/>
+    <!-- avant-corps central et fronton -->
+    <path d="M76 31V88M124 31V88"/>
+    <path d="M70 31L100 11L130 31Z"/>
+    <path d="M84 27L100 17L116 27"/>
+    <!-- fenêtres cintrées -->
+    <g id="w">
+      <path d="M26 84V58A8 8 0 0 1 42 58V84Z"/>
+      <path d="M23 58A11 11 0 0 1 45 58"/>
+      <path d="M26 66H42M34 58V84M26 75H42"/>
+      <path d="M24 84H44"/>
+    </g>
+    <use href="#w" x="28"/>
+    <use href="#w" x="104"/>
+    <use href="#w" x="132"/>
+    <!-- porte centrale -->
+    <path d="M90 88V56A10 10 0 0 1 110 56V88"/>
+    <path d="M87 56A13 13 0 0 1 113 56"/>
+  </g>
+</svg>
