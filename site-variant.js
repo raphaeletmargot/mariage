@@ -1,7 +1,7 @@
 (() => {
-  const versions = ['famille_proche', 'loges_domaine', 'invites_complets'];
+  const versions = ['cyrano', 'ragueneau', 'magdeleine'];
   const requestedVersion = new URLSearchParams(window.location.search).get('version');
-  const version = versions.includes(requestedVersion) ? requestedVersion : versions[0];
+  const version = versions.includes(requestedVersion) ? requestedVersion : 'magdeleine';
 
   document.body.dataset.variant = version;
 
