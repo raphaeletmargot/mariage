@@ -1,35 +1,53 @@
 body[data-page="manger"] .food-main { min-height: auto; display: block; padding: 0; }
-body[data-page="manger"] .food-wrap { width: min(100% - 14%, 1040px); margin: 0 auto; }
+body[data-page="manger"] .food-wrap { width: min(100% - 14%, 1040px); margin: 0 auto; padding-bottom: 68px; }
 body[data-page="manger"] .food-intro { padding: 68px 0 42px; }
-body[data-page="manger"] .food-kicker { margin: 0 0 13px; color: var(--moss); font-size: 11px; font-weight: 700; }
 body[data-page="manger"] .food-intro h1 { margin: 0 0 18px; color: var(--fig-plum); font-size: 58px; line-height: 1.05; }
-body[data-page="manger"] .food-intro-copy { max-width: 760px; margin: 0; font-size: 16px; line-height: 1.75; }
-body[data-page="manger"] .diet-reminder { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-top: 24px; padding: 17px 20px; border-left: 3px solid var(--peach-blossom); background: #d9846b1c; }
-body[data-page="manger"] .diet-reminder p { margin: 0; font-size: 13px; line-height: 1.6; }
-body[data-page="manger"] .diet-reminder a { flex: 0 0 auto; color: var(--fig-plum); font-size: 11px; font-weight: 700; text-underline-offset: 3px; }
-body[data-page="manger"] .food-common { padding: 34px 0 38px; border-top: 1px solid #6b7a5f44; }
-body[data-page="manger"] .food-common h2, body[data-page="manger"] .food-saturday h2 { margin: 0 0 12px; color: var(--fig-plum); font-size: 34px; }
-body[data-page="manger"] .food-common p { max-width: 720px; margin: 0; font-size: 14px; line-height: 1.7; }
-body[data-page="manger"] .food-saturday { padding: 38px 0 46px; border-top: 1px solid #6b7a5f44; }
-body[data-page="manger"] .food-caveat { margin: 0 0 26px; padding: 16px 19px; background: var(--fig-plum); color: white; font-size: 13px; line-height: 1.7; }
-body[data-page="manger"] .meal-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 42px; }
-body[data-page="manger"] .meal-option { padding: 20px 0; border-top: 2px solid var(--peach-blossom); }
-body[data-page="manger"] .meal-option h3 { margin: 0 0 9px; color: var(--fig-plum); font-size: 25px; }
-body[data-page="manger"] .meal-option p { margin: 0; font-size: 13px; line-height: 1.7; }
-body[data-page="manger"] .food-thursday { padding: 30px 0 62px; border-top: 1px solid #6b7a5f44; }
-body[data-page="manger"] .food-thursday h2 { margin: 0 0 12px; color: var(--moss); font-size: 30px; }
-body[data-page="manger"] .food-thursday p { max-width: 720px; margin: 0; font-size: 14px; line-height: 1.7; }
+body[data-page="manger"] .food-intro-copy { margin: 0; font-size: 16px; line-height: 1.75; }
+body[data-page="manger"] .rsvp-link { color: var(--fig-plum); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+body[data-page="manger"] .rsvp-link:hover { color: var(--moss); }
+
+body[data-page="manger"] .food-when { margin: 0 0 8px; color: var(--moss); font-size: 12px; font-weight: 700; }
+
+/* Trois parties reliées par un fil pointillé, chaque jour dans une étiquette */
+body[data-page="manger"] .food-part { position: relative; padding: 0 0 52px 52px; }
+body[data-page="manger"] .food-part:not(:last-child)::before { content: ''; position: absolute; top: 20px; bottom: -6px; left: 10px; width: 2px; background: repeating-linear-gradient(to bottom, var(--peach-blossom) 0 6px, transparent 6px 12px); }
+body[data-page="manger"] .food-part::after { content: ''; position: absolute; top: 5px; left: 2px; width: 18px; height: 18px; border: 2px solid var(--fig-plum); border-radius: 50%; background: var(--paper); box-shadow: inset 0 0 0 3px var(--paper), inset 0 0 0 9px var(--peach-blossom); box-sizing: border-box; }
+body[data-page="manger"] .part-date { display: inline-block; margin: 0 0 12px; padding: 6px 16px 5px; border-radius: 999px; background: #d9846b26; color: var(--copper-tulip); font-size: 13px; font-weight: 700; line-height: 1.3; letter-spacing: .1em; text-transform: uppercase; }
+body[data-page="manger"] .part-heading h2 { margin: 0; color: var(--fig-plum); font-size: 34px; line-height: 1.15; }
+body[data-page="manger"] .part-content { margin-top: 18px; }
+body[data-page="manger"] .part-content > p { margin: 0; font-size: 14px; line-height: 1.7; }
+
+/* Dernière étape : le moment où l'on s'occupe de tout */
+body[data-page="manger"] .food-part--hosted { padding-bottom: 0; }
+body[data-page="manger"] .food-part--hosted::after { border-color: var(--fig-plum); background: var(--fig-plum); box-shadow: 0 0 0 4px var(--paper), 0 0 0 6px #5a384833; }
+body[data-page="manger"] .food-part--hosted .part-date { background: var(--fig-plum); color: white; }
+
+/* Encadré, comme les notes de Voyager et Programme */
+body[data-page="manger"] .food-callout { margin: 0 0 26px; padding: 18px 22px; border-left: 3px solid var(--peach-blossom); background: #d9846b1c; }
+body[data-page="manger"] .food-callout p { margin: 0; font-size: 15px; line-height: 1.7; }
+body[data-page="manger"] .food-callout strong { color: var(--fig-plum); }
+
+/* Repas à prévoir, comme les cartes chambres / gîtes */
+body[data-page="manger"] .meal-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 40px; }
+body[data-page="manger"] .meal { padding: 18px 0; border-top: 2px solid var(--peach-blossom); }
+body[data-page="manger"] .meal .food-when { color: var(--copper-tulip); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; }
+body[data-page="manger"] .meal h3 { margin: 0 0 8px; color: var(--fig-plum); font-size: 25px; }
+body[data-page="manger"] .meal p:last-child { margin: 0; font-size: 13px; line-height: 1.7; }
+
 @media (max-width: 760px) {
+  body[data-page="manger"] .food-wrap { padding-bottom: 48px; }
   body[data-page="manger"] .food-intro { padding: 52px 0 34px; }
   body[data-page="manger"] .food-intro h1 { font-size: 44px; }
   body[data-page="manger"] .food-intro-copy { font-size: 14px; }
-  body[data-page="manger"] .diet-reminder { align-items: flex-start; flex-direction: column; gap: 12px; }
-  body[data-page="manger"] .food-common, body[data-page="manger"] .food-saturday { padding: 32px 0 36px; }
-  body[data-page="manger"] .food-common h2, body[data-page="manger"] .food-saturday h2 { font-size: 29px; }
-  body[data-page="manger"] .meal-options { grid-template-columns: 1fr; gap: 0; }
-  body[data-page="manger"] .food-thursday { padding: 28px 0 48px; }
+  body[data-page="manger"] .food-part { padding: 0 0 40px 36px; }
+  body[data-page="manger"] .food-part:not(:last-child)::before { left: 7px; top: 18px; }
+  body[data-page="manger"] .food-part::after { top: 6px; left: 1px; width: 15px; height: 15px; box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 7px var(--peach-blossom); }
+  body[data-page="manger"] .part-date { font-size: 12px; padding: 5px 13px 4px; }
+  body[data-page="manger"] .food-part--hosted::after { box-shadow: 0 0 0 3px var(--paper), 0 0 0 5px #5a384833; }
+  body[data-page="manger"] .part-heading h2 { font-size: 29px; }
+  body[data-page="manger"] .food-callout p { font-size: 14px; }
+  body[data-page="manger"] .meal-list { grid-template-columns: 1fr; gap: 0; }
 }
 @media (max-width: 400px) {
   body[data-page="manger"] .food-intro h1 { font-size: 39px; }
-  body[data-page="manger"] .food-thursday h2 { font-size: 26px; }
 }

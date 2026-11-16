@@ -22,31 +22,48 @@
   <main class="food-main">
     <div class="food-wrap">
       <header class="food-intro">
-        <p class="food-kicker">MARIAGE DE RAPHAËL &amp; MARGOT · 15—17 MAI 2027</p>
-        <h1 id="page-title">À table</h1>
-        <p class="food-intro-copy">À partir du dimanche après-midi, on s’occupe de tout ! Pensez simplement à bien nous indiquer vos régimes alimentaires et éventuelles allergies dans le RSVP.</p>
-        <div class="diet-reminder">
-          <a href="invitation.html#rsvp">Accéder au RSVP</a>
-        </div>
+        <h1 id="page-title">Repas</h1>
+        <p class="food-intro-copy">À partir du dimanche après-midi, on s’occupe de tout ! Pensez simplement à nous indiquer vos régimes alimentaires et éventuelles allergies dans le <a class="rsvp-link" href="invitation.html#rsvp">RSVP</a>.</p>
       </header>
 
-      <section class="food-thursday" aria-labelledby="thursday-title" data-variants="famille_proche" hidden>
-        <h2 id="thursday-title">Dès jeudi</h2>
-        <p>Pour celles et ceux présent·es dès le jeudi, on s’organisera pour mutualiser les repas.</p>
+      <section class="food-part" aria-labelledby="part-thursday" data-variants="famille_proche" hidden>
+        <div class="part-heading">
+          <p class="part-date">Dès <time datetime="2027-05-13">jeudi</time></p>
+          <h2 id="part-thursday">On s’organise ensemble</h2>
+        </div>
+        <div class="part-content">
+          <p>Pour celles et ceux qui arrivent dès le jeudi, on mettra les repas en commun.</p>
+        </div>
       </section>
 
-      <section class="food-saturday" aria-labelledby="saturday-title">
-        <h2 id="saturday-title"><span data-variants="famille_proche" hidden>Le samedi</span><span data-variants="loges_domaine,invites_complets" hidden>Vous venez dès le samedi ?</span></h2>
-        <p class="food-caveat"><span data-variants="loges_domaine,invites_complets" hidden>Génial ! Simplement, nous</span><span data-variants="famille_proche" hidden>Samedi, nous</span> ne pourrons pas prendre en charge les repas, et vous n’aurez accès ni à une cuisine ni à de la vaisselle. Voici de quoi vous organiser :</p>
-        <div class="meal-options">
-          <article class="meal-option">
-            <h3>Samedi soir</h3>
-            <p>Un camion à pizzas viendra sur le domaine. Chacun·e pourra commander et régler sa pizza sur place.</p>
-          </article>
-          <article class="meal-option">
-            <h3>Dimanche matin et midi</h3>
-            <p>Si vous êtes véhiculé·es, vous trouverez boulangeries, restaurants et supermarchés aux alentours. Sinon, pensez à prévoir de quoi petit-déjeuner et pique-niquer !</p>
-          </article>
+      <section class="food-part" aria-labelledby="part-self">
+        <div class="part-heading">
+          <p class="part-date">De <time datetime="2027-05-15">samedi</time> jusqu’à <time datetime="2027-05-16">dimanche</time> midi</p>
+          <h2 id="part-self">À prévoir de votre côté</h2>
+        </div>
+        <div class="part-content">
+          <div class="food-callout">
+            <p>Vous venez dès le samedi ? Génial ! Simplement, <strong>nous ne pourrons pas prendre en charge les repas</strong>, et vous n’aurez accès ni à une cuisine ni à de la vaisselle. Voici de quoi vous organiser :</p>
+          </div>
+          <div class="meal-list">
+            <article class="meal">
+              <p class="food-when">Samedi soir</p>
+              <h3>Camion à pizzas</h3>
+              <p>Un camion à pizzas s’installera sur le domaine : chacun·e pourra y commander et régler sa pizza sur place.</p>
+            </article>
+            <article class="meal">
+              <p class="food-when">Dimanche matin et midi</p>
+              <h3>Petit-dej et dej</h3>
+              <p>Si vous êtes en voiture, boulangeries, restaurants et supermarchés ne sont pas loin. Sinon, pensez à glisser dans vos bagages de quoi petit-déjeuner et pique-niquer !</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="food-part food-part--hosted" aria-labelledby="part-hosted">
+        <div class="part-heading">
+          <p class="part-date">À partir de <time datetime="2027-05-16">dimanche</time> après-midi</p>
+          <h2 id="part-hosted">On s’occupe de tout !</h2>
         </div>
       </section>
     </div>
