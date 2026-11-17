@@ -27,7 +27,6 @@ body[data-page="voyager"] .travel-callout p + p { margin-top: 8px; }
 body[data-page="voyager"] .taxi-list { display: flex; flex-wrap: wrap; gap: 9px 18px; margin: 13px 0 0; padding: 0; list-style: none; }
 body[data-page="voyager"] .taxi-list a { color: var(--fig-plum); font-size: 12px; font-weight: 700; text-underline-offset: 3px; }
 body[data-page="voyager"] .travel-option--two { padding-bottom: 48px; }
-body[data-page="voyager"] .travel-option--two .option-heading h2 { color: var(--moss); }
 body[data-page="voyager"] .walk-note { margin: 0; font-size: 13px; line-height: 1.7; }
 body[data-page="voyager"] .safety-note { margin: 12px 0 0; font-size: 13px; line-height: 1.7; }
 body[data-page="voyager"] .safety-note strong { color: var(--fig-plum); }

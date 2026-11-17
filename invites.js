@@ -441,7 +441,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Lilou",
-    "lastName": "Dahhan",
+    "lastName": "Delafosse",
     "site": 2
   },
   {
