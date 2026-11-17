@@ -15,6 +15,11 @@ guestForm.addEventListener('submit', (event) => {
     normalizeName(guest.firstName) === firstName && normalizeName(guest.lastName) === lastName
   );
 
+  if (firstName && lastName && matches.length === 1 && matches[0].site === 'surprise') {
+    window.location.href = 'surprise.html';
+    return;
+  }
+
   if (firstName && lastName && matches.length === 1 && [0, 1, 2].includes(matches[0].site)) {
     const version = ['magdeleine', 'ragueneau', 'cyrano'][matches[0].site];
     window.location.href = `invitation.html?version=${version}`;

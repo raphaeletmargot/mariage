@@ -933,5 +933,20 @@ window.guestInvitations = [
     "firstName": "Younes",
     "lastName": "Mantrand",
     "site": 1
+  },
+  {
+    "firstName": "Adrien",
+    "lastName": "Dahan",
+    "site": "surprise"
+  },
+  {
+    "firstName": "Léopold",
+    "lastName": "Delaverge",
+    "site": "surprise"
+  },
+  {
+    "firstName": "Arno",
+    "lastName": "Rubinstein",
+    "site": "surprise"
   }
 ];
