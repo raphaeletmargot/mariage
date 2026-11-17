@@ -6,3 +6,5 @@
 - "et vous avez bien réservé votre place vélo" -> "et vous avez réservé votre place vélo"
 - Vous êtes organisé·es et avez réservé un taxi en gare de Châteaudun. -> Vous êtes prévoyant·es et avez réservé un taxi en gare de Châteaudun. 
 - En l’espace de 20 minutes, il vous conduit au domaine pour environ XX euros. Pensez à compléter à remplir l’excel Covoiturage & Taxis (lien à venir) pour mutualiser les trajets.
+
+- Changer Lilou Dahhan, Brigitte Afios, Danielle - Davide, Carole - Gideon, Leandro, Mari Bruna, Epouse Fred

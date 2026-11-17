@@ -32,7 +32,7 @@ window.guestInvitations = [
   {
     "firstName": "Anna",
     "lastName": "Diop",
-    "site": 1
+    "site": 2
   },
   {
     "firstName": "Anne",
@@ -191,7 +191,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Fantin",
-    "lastName": "Raibault",
+    "lastName": "Raibaut",
     "site": 1
   },
   {
@@ -402,7 +402,7 @@ window.guestInvitations = [
   {
     "firstName": "Laurent",
     "lastName": "Paquot",
-    "site": 2
+    "site": 1
   },
   {
     "firstName": "Léo",
@@ -631,22 +631,22 @@ window.guestInvitations = [
   },
   {
     "firstName": "Danielle",
-    "lastName": "X",
+    "lastName": "Rosenholz",
     "site": 0
   },
   {
     "firstName": "Carole",
-    "lastName": "X",
+    "lastName": "Lewis-Kraus",
     "site": 0
   },
   {
-    "firstName": "Mari carole",
-    "lastName": "Gideon",
+    "firstName": "Gideon",
+    "lastName": "Lewis-Kraus",
     "site": 0
   },
   {
-    "firstName": "Mari Dani",
-    "lastName": "Davide",
+    "firstName": "Davide",
+    "lastName": "Rosenholz",
     "site": 0
   },
   {
@@ -700,7 +700,7 @@ window.guestInvitations = [
     "site": 0
   },
   {
-    "firstName": "Mari Bruna",
+    "firstName": "Marcelo",
     "lastName": "Nelken",
     "site": 0
   },
@@ -767,7 +767,7 @@ window.guestInvitations = [
   {
     "firstName": "Monique",
     "lastName": "Lepicard",
-    "site": 1
+    "site": 2
   },
   {
     "firstName": "Mounir",
