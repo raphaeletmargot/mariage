@@ -16,11 +16,11 @@ window.guestInvitations = [
   },
   {
     "firstName": "Alma",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
-    "firstName": "Anais",
+    "firstName": "Anaïs",
     "lastName": "Chalot",
     "site": 2
   },
@@ -31,7 +31,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Anna",
-    "lastName": "Diop",
+    "lastName": "Diop-Dubois",
     "site": 2
   },
   {
@@ -70,7 +70,7 @@ window.guestInvitations = [
     "site": 2
   },
   {
-    "firstName": "Benoit",
+    "firstName": "Benoît",
     "lastName": "Chalot",
     "site": 1
   },
@@ -100,7 +100,7 @@ window.guestInvitations = [
     "site": 2
   },
   {
-    "firstName": "Cecile",
+    "firstName": "Cécile",
     "lastName": "Guillet",
     "site": 1
   },
@@ -140,7 +140,7 @@ window.guestInvitations = [
     "site": 1
   },
   {
-    "firstName": "Eleonore",
+    "firstName": "Eléonore",
     "lastName": "Cecillon",
     "site": 1
   },
@@ -172,7 +172,7 @@ window.guestInvitations = [
   {
     "firstName": "Eva",
     "lastName": "Gossiaux",
-    "site": 1
+    "site": 0
   },
   {
     "firstName": "Eve",
@@ -206,17 +206,17 @@ window.guestInvitations = [
   },
   {
     "firstName": "Antoine",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 0
   },
   {
     "firstName": "Megan",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 0
   },
   {
     "firstName": "Dominic",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 0
   },
   {
@@ -257,7 +257,7 @@ window.guestInvitations = [
   {
     "firstName": "Gilles",
     "lastName": "Colombet",
-    "site": 1
+    "site": 0
   },
   {
     "firstName": "Gregoire",
@@ -296,12 +296,12 @@ window.guestInvitations = [
   },
   {
     "firstName": "Helene",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
     "firstName": "Herve",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -312,7 +312,7 @@ window.guestInvitations = [
   {
     "firstName": "Iris",
     "lastName": "Marechal",
-    "site": 1
+    "site": 0
   },
   {
     "firstName": "Jean-Baptiste",
@@ -356,12 +356,12 @@ window.guestInvitations = [
   },
   {
     "firstName": "Sebastien",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 0
   },
   {
     "firstName": "Ruby",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 0
   },
   {
@@ -566,7 +566,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Malo",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -576,7 +576,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Marie",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -631,12 +631,12 @@ window.guestInvitations = [
   },
   {
     "firstName": "Danielle",
-    "lastName": "Rosenholz",
+    "lastName": "Lewis-Kraus",
     "site": 0
   },
   {
     "firstName": "Carole",
-    "lastName": "Lewis-Kraus",
+    "lastName": "Rosenholz",
     "site": 0
   },
   {
@@ -730,6 +730,16 @@ window.guestInvitations = [
     "site": 0
   },
   {
+    "firstName": "Enfant Carole",
+    "lastName": "X",
+    "site": 0
+  },
+  {
+    "firstName": "Enfant Dani",
+    "lastName": "X",
+    "site": 0
+  },
+  {
     "firstName": "Mathilde",
     "lastName": "Guillet",
     "site": 1
@@ -741,7 +751,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Maud",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -756,7 +766,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Michael",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -801,7 +811,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Noe",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -901,7 +911,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Thibault",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
@@ -926,7 +936,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Yoen",
-    "lastName": "Lebourdonnec",
+    "lastName": "Le Bourdonnec",
     "site": 1
   },
   {
