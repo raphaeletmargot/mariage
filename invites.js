@@ -591,7 +591,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Brigitte",
-    "lastName": "Afios",
+    "lastName": "Caubet",
     "site": 0
   },
   {
@@ -666,7 +666,7 @@ window.guestInvitations = [
   },
   {
     "firstName": "Leandro",
-    "lastName": "X",
+    "lastName": "Kaczemozka",
     "site": 0
   },
   {
@@ -715,7 +715,7 @@ window.guestInvitations = [
     "site": 0
   },
   {
-    "firstName": "Epouse Fred",
+    "firstName": "Rim",
     "lastName": "Haiat",
     "site": 0
   },
