@@ -13,18 +13,12 @@ SURPRISE_GUESTS = [
 ]
 
 
-def site_for(row):
-    if row["Core team"].strip() == "1":
-        return 2
-    return 1 if row["Besoin d'un lit"].strip() == "1" else 0
-
-
 def main():
     with CSV_PATH.open(encoding="utf-8-sig", newline="") as f:
         rows = list(csv.DictReader(f))
 
     guests = [
-        {"firstName": row["Prenom"].strip(), "lastName": row["Nom"].strip(), "site": site_for(row)}
+        {"firstName": row["Prenom"].strip(), "lastName": row["Nom"].strip(), "site": int(row["Groupe invité"].strip())}
         for row in rows
         # "X" is a placeholder first name (e.g. unnamed baby).
         if row["Prenom"].strip() not in ("", "X") and row["Nom"].strip()
