@@ -4,7 +4,9 @@ const formStatus = document.querySelector('#form-status');
 function normalizeName(value) {
   return value.trim().toLocaleLowerCase('fr').normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
-    .replace(/\s+/g, ' ');
+    .replace(/[-‐‑‒–—]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 guestForm.addEventListener('submit', (event) => {
