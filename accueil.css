@@ -38,6 +38,7 @@ input::placeholder { color: #8a8a8a; opacity: 1; font-size: 13px; font-style: it
 button { display: flex; justify-content: space-between; align-items: center; width: 100%; min-height: 53px; margin-top: 16px; padding: 0 18px; border: 0; border-radius: 2px; color: white; background: var(--moss); font-size: 13px; font-weight: 700; cursor: pointer; transition: background .2s; }
 button:hover { background: var(--moss-dark); }
 .form-status { margin: 13px 0 0; padding: 12px 14px; border-left: 3px solid var(--coral); background: white; font-size: 13px; line-height: 1.5; }
+.form-status .suggestion-line { margin: 8px 0 0; }
 .form-status .suggestion-button { all: unset; color: var(--coral); font-weight: 600; text-decoration: underline; cursor: pointer; }
 .form-status .suggestion-button:focus-visible { outline: 2px solid var(--coral); outline-offset: 2px; }
 .photo { position: relative; min-height: 100%; overflow: hidden; background: var(--green); }

@@ -53,7 +53,13 @@ function findSuggestion(firstName, lastName) {
   return tie ? null : best;
 }
 
-function showSuggestion(guest) {
+function findSameFirstName(firstName) {
+  return (window.guestInvitations || []).filter((guest) =>
+    guest.site !== 'surprise' && normalizeName(guest.firstName) === firstName
+  );
+}
+
+function createSuggestionButton(guest) {
   const button = document.createElement('button');
   button.type = 'button';
   button.className = 'suggestion-button';
@@ -63,7 +69,22 @@ function showSuggestion(guest) {
     guestForm.elements.lastName.value = guest.lastName;
     guestForm.requestSubmit();
   });
-  formStatus.replaceChildren('Vouliez-vous dire ', button, ' ?');
+  return button;
+}
+
+function showNotFound(suggestions) {
+  formStatus.replaceChildren("Nous ne vous trouvons pas sur la liste. Vérifiez l'orthographe. Si ça ne fonctionne toujours pas, contactez-nous.");
+  if (suggestions.length) {
+    const line = document.createElement('p');
+    line.className = 'suggestion-line';
+    line.append('Vouliez-vous dire ');
+    suggestions.forEach((guest, index) => {
+      if (index > 0) line.append(index === suggestions.length - 1 ? ' ou ' : ', ');
+      line.append(createSuggestionButton(guest));
+    });
+    line.append(' ?');
+    formStatus.append(line);
+  }
   formStatus.hidden = false;
 }
 
@@ -86,14 +107,12 @@ guestForm.addEventListener('submit', (event) => {
     return;
   }
 
-  const suggestion = firstName && lastName && matches.length === 0 && findSuggestion(firstName, lastName);
-  if (suggestion) {
-    showSuggestion(suggestion);
-    return;
+  let suggestions = [];
+  if (firstName && lastName && matches.length === 0) {
+    const closest = findSuggestion(firstName, lastName);
+    suggestions = closest ? [closest] : findSameFirstName(firstName);
   }
-
-  formStatus.textContent = "Nous ne vous trouvons pas sur la liste. Vérifiez l'orthographe. Si ça ne fonctionne toujours pas, contactez-nous.";
-  formStatus.hidden = false;
+  showNotFound(suggestions);
 });
 
 guestForm.addEventListener('input', () => {
